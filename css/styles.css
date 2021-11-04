@@ -1,0 +1,16 @@
+.navi2{padding-left: 5%;}
+.formback{background-color:wheat;
+padding: 10%;
+height: 100%;}
+.dist{margin-left: 4%;}
+.forms{margin-left: 20%;margin-right: 20%;
+    padding: 5%;font-weight: bolder;
+    background-color: cyan;border-style: solid;border-width: 8px;border-color:lightpink;border-radius: 35px;}
+.navbar{
+    width:100%;
+}
+.navi3{margin-left: 50px;}
+.dist:hover {
+
+    transform: scale(1.1); 
+  }
