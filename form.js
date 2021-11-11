@@ -41,7 +41,7 @@ else{
     
     var regexp1=/^[a-z]{8,20}$/
     var regexp2=/^([a-zA-z]{8,20})$/
-    var regexp3=/^([a-zA-Z0-9]+)$/
+    var regexp3=/^([a-zA-Z0-9]{8,20})$/
     
     if(regexp1.test(passw1.value))
     {
