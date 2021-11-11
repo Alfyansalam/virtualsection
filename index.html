@@ -9,12 +9,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="css/styles.css">
    
+   <script src="validate.js"></script>
   <title>Kerala tourism</title>
 </head>
 <body>
  <!-- navbar -->
-<!-- <div class="row ">     -->
-    <!-- <div class="col-12"> -->
+    
+    
       
     
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,9 +48,9 @@
             </form>
           </div>
       </nav>
-    <!-- </div> -->
-<!-- </div> -->
- <!-- </nav>-->
+    
+
+ 
 
 <!-- form and crousel -->
 <div class="row">
@@ -78,11 +79,13 @@
   </div>
 
   <div class="col-lg-4">
-  <form style="border-radius:25px;border-style: solid;border-width: 5px;border-color: lightpink;" class="formback">
+  <form style="border-radius:25px;border-style: solid;border-width: 5px;border-color: lightpink;" action="district.html" class="formback" onsubmit="return validate()">
     <div class="form-row">
       <div class="form-group col-md-6">
-        <label for="inputEmail4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
+        <br>
+        <label for="error" id="error"></label>
       </div>
       <div class="form-group col-md-6">
         <label for="inputPassword4">Password</label>
@@ -130,6 +133,7 @@
     </form>
   </div>
 </div>
+
 <!-- Footer -->
 <footer class="page-footer font-small blue">
 
@@ -141,5 +145,6 @@
 
 </footer>
 <!-- Footer -->
+<script src="form.js"></script>
 </body>
 </html>
