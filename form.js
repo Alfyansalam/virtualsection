@@ -1,7 +1,7 @@
 var email= document.getElementById("inputEmail4");
 var error= document.getElementById("error");
 function validate(){
-    var regexp= /^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?$/
+    var regexp= /^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})$/
 
 if(regexp.test(email.value)){
     error.innerHTML =""
